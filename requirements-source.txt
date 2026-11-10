@@ -1,0 +1,11 @@
+# Additional dependencies used only by historical scripts under source/.
+-r requirements.txt
+pandas
+tqdm
+scikit-learn
+SimpleITK
+medpy
+batchgenerators
+tensorboard
+scikit-image
+acvl-utils

@@ -1,0 +1,8 @@
+# Install a CUDA-compatible PyTorch build separately before the CUDA extensions.
+torch>=2.3
+monai
+numpy
+nibabel
+scipy
+einops
+timm

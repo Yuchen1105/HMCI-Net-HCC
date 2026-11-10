@@ -1,0 +1,3 @@
+# Requires a matching CUDA development environment. See docs/reproducibility.md.
+mamba-ssm
+causal-conv1d

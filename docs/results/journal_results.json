@@ -1,0 +1,237 @@
+{
+  "source": "Supplied journal manuscript, Tables 2 and 3",
+  "basis": "Journal manuscript",
+  "overlap_scale": "0-1",
+  "internal_comparison": [
+    {
+      "task": "whole_tumor",
+      "model": "3D UXNet",
+      "patient_dsc": "0.886 (0.844-0.928)",
+      "patient_ji": "0.801 (0.738-0.864)",
+      "tumor_dsc": "0.888 (0.839-0.937)",
+      "tumor_ji": "0.805 (0.736-0.875)"
+    },
+    {
+      "task": "whole_tumor",
+      "model": "SegMamba",
+      "patient_dsc": "0.852 (0.769-0.935)",
+      "patient_ji": "0.758 (0.656-0.860)",
+      "tumor_dsc": "0.884 (0.835-0.933)",
+      "tumor_ji": "0.799 (0.730-0.868)"
+    },
+    {
+      "task": "whole_tumor",
+      "model": "SuperLightNet",
+      "patient_dsc": "0.710 (0.584-0.836)",
+      "patient_ji": "0.579 (0.446-0.711)",
+      "tumor_dsc": "0.777 (0.695-0.859)",
+      "tumor_ji": "0.649 (0.550-0.748)"
+    },
+    {
+      "task": "whole_tumor",
+      "model": "nnWNet",
+      "patient_dsc": "0.715 (0.590-0.839)",
+      "patient_ji": "0.583 (0.452-0.714)",
+      "tumor_dsc": "0.772 (0.685-0.859)",
+      "tumor_ji": "0.644 (0.541-0.748)"
+    },
+    {
+      "task": "whole_tumor",
+      "model": "EMNet",
+      "patient_dsc": "0.840 (0.755-0.925)",
+      "patient_ji": "0.740 (0.636-0.845)",
+      "tumor_dsc": "0.878 (0.823-0.933)",
+      "tumor_ji": "0.790 (0.717-0.863)"
+    },
+    {
+      "task": "whole_tumor",
+      "model": "UKAN-EP",
+      "patient_dsc": "0.625 (0.471-0.779)",
+      "patient_ji": "0.490 (0.344-0.635)",
+      "tumor_dsc": "0.721 (0.623-0.818)",
+      "tumor_ji": "0.582 (0.471-0.692)"
+    },
+    {
+      "task": "whole_tumor",
+      "model": "SwinSMT",
+      "patient_dsc": "0.673 (0.526-0.820)",
+      "patient_ji": "0.542 (0.398-0.686)",
+      "tumor_dsc": "0.736 (0.635-0.837)",
+      "tumor_ji": "0.602 (0.487-0.718)"
+    },
+    {
+      "task": "whole_tumor",
+      "model": "UNETR",
+      "patient_dsc": "0.530 (0.393-0.667)",
+      "patient_ji": "0.385 (0.263-0.508)",
+      "tumor_dsc": "0.626 (0.533-0.719)",
+      "tumor_ji": "0.470 (0.374-0.565)"
+    },
+    {
+      "task": "whole_tumor",
+      "model": "HMCI-Net",
+      "patient_dsc": "0.897 (0.850-0.945)",
+      "patient_ji": "0.820 (0.753-0.887)",
+      "tumor_dsc": "0.906 (0.866-0.945)",
+      "tumor_ji": "0.832 (0.774-0.891)"
+    },
+    {
+      "task": "enhancing_tumor",
+      "model": "3D UXNet",
+      "patient_dsc": "0.710 (0.608-0.812)",
+      "patient_ji": "0.569 (0.460-0.679)",
+      "tumor_dsc": "0.772 (0.693-0.852)",
+      "tumor_ji": "0.642 (0.550-0.735)"
+    },
+    {
+      "task": "enhancing_tumor",
+      "model": "SegMamba",
+      "patient_dsc": "0.589 (0.461-0.717)",
+      "patient_ji": "0.442 (0.319-0.564)",
+      "tumor_dsc": "0.677 (0.580-0.774)",
+      "tumor_ji": "0.528 (0.424-0.633)"
+    },
+    {
+      "task": "enhancing_tumor",
+      "model": "SuperLightNet",
+      "patient_dsc": "0.693 (0.570-0.815)",
+      "patient_ji": "0.555 (0.429-0.681)",
+      "tumor_dsc": "0.776 (0.709-0.843)",
+      "tumor_ji": "0.644 (0.560-0.728)"
+    },
+    {
+      "task": "enhancing_tumor",
+      "model": "nnWNet",
+      "patient_dsc": "0.619 (0.463-0.774)",
+      "patient_ji": "0.482 (0.340-0.624)",
+      "tumor_dsc": "0.714 (0.622-0.806)",
+      "tumor_ji": "0.571 (0.466-0.676)"
+    },
+    {
+      "task": "enhancing_tumor",
+      "model": "EMNet",
+      "patient_dsc": "0.668 (0.547-0.789)",
+      "patient_ji": "0.525 (0.403-0.648)",
+      "tumor_dsc": "0.714 (0.620-0.808)",
+      "tumor_ji": "0.572 (0.464-0.680)"
+    },
+    {
+      "task": "enhancing_tumor",
+      "model": "UKAN-EP",
+      "patient_dsc": "0.625 (0.505-0.746)",
+      "patient_ji": "0.477 (0.361-0.593)",
+      "tumor_dsc": "0.713 (0.621-0.805)",
+      "tumor_ji": "0.570 (0.468-0.672)"
+    },
+    {
+      "task": "enhancing_tumor",
+      "model": "SwinSMT",
+      "patient_dsc": "0.688 (0.567-0.809)",
+      "patient_ji": "0.549 (0.426-0.672)",
+      "tumor_dsc": "0.737 (0.649-0.824)",
+      "tumor_ji": "0.598 (0.496-0.701)"
+    },
+    {
+      "task": "enhancing_tumor",
+      "model": "UNETR",
+      "patient_dsc": "0.384 (0.270-0.497)",
+      "patient_ji": "0.251 (0.161-0.341)",
+      "tumor_dsc": "0.541 (0.445-0.637)",
+      "tumor_ji": "0.384 (0.291-0.478)"
+    },
+    {
+      "task": "enhancing_tumor",
+      "model": "HMCI-Net",
+      "patient_dsc": "0.801 (0.770-0.832)",
+      "patient_ji": "0.671 (0.627-0.714)",
+      "tumor_dsc": "0.811 (0.765-0.858)",
+      "tumor_ji": "0.688 (0.628-0.748)"
+    }
+  ],
+  "cohort_results": [
+    {
+      "task": "whole_tumor",
+      "cohort": "Internal test",
+      "patient_dsc": "0.897 (0.850–0.945)",
+      "patient_ji": "0.820 (0.753–0.887)",
+      "patient_recall": 0.927,
+      "tumor_dsc": "0.906 (0.866–0.945)",
+      "tumor_ji": "0.832 (0.774–0.891)",
+      "tumor_precision": 0.942,
+      "tumor_recall": 0.927,
+      "tumor_f1": 0.935
+    },
+    {
+      "task": "whole_tumor",
+      "cohort": "TCIA-HCC",
+      "patient_dsc": "0.814 (0.640–0.871)",
+      "patient_ji": "0.687 (0.471–0.772)",
+      "patient_recall": 0.804,
+      "tumor_dsc": "0.856 (0.754–0.899)",
+      "tumor_ji": "0.748 (0.605–0.817)",
+      "tumor_precision": 0.92,
+      "tumor_recall": 0.805,
+      "tumor_f1": 0.86
+    },
+    {
+      "task": "whole_tumor",
+      "cohort": "LITS",
+      "patient_dsc": "0.730 (0.652–0.829)",
+      "patient_ji": "0.575 (0.484–0.707)",
+      "patient_recall": 0.756,
+      "tumor_dsc": "0.776 (0.675–0.844)",
+      "tumor_ji": "0.634 (0.509–0.730)",
+      "tumor_precision": 0.757,
+      "tumor_recall": 0.791,
+      "tumor_f1": 0.774
+    },
+    {
+      "task": "whole_tumor",
+      "cohort": "MSD",
+      "patient_dsc": "0.739 (0.632–0.825)",
+      "patient_ji": "0.586 (0.462–0.702)",
+      "patient_recall": 0.809,
+      "tumor_dsc": "0.798 (0.719–0.855)",
+      "tumor_ji": "0.663 (0.562–0.747)",
+      "tumor_precision": 0.873,
+      "tumor_recall": 0.813,
+      "tumor_f1": 0.842
+    },
+    {
+      "task": "whole_tumor",
+      "cohort": "CECT",
+      "patient_dsc": "0.665 (0.573–0.760)",
+      "patient_ji": "0.499 (0.402–0.613)",
+      "patient_recall": 0.586,
+      "tumor_dsc": "0.750 (0.659–0.797)",
+      "tumor_ji": "0.600 (0.491–0.662)",
+      "tumor_precision": 0.852,
+      "tumor_recall": 0.637,
+      "tumor_f1": 0.729
+    },
+    {
+      "task": "enhancing_tumor",
+      "cohort": "Internal test",
+      "patient_dsc": "0.801 (0.770–0.832)",
+      "patient_ji": "0.671 (0.627–0.714)",
+      "patient_recall": 0.796,
+      "tumor_dsc": "0.811 (0.765–0.858)",
+      "tumor_ji": "0.688 (0.628–0.748)",
+      "tumor_precision": 0.879,
+      "tumor_recall": 0.794,
+      "tumor_f1": 0.834
+    },
+    {
+      "task": "enhancing_tumor",
+      "cohort": "TCIA-HCC",
+      "patient_dsc": "0.759 (0.675–0.845)",
+      "patient_ji": "0.612 (0.509–0.731)",
+      "patient_recall": 0.674,
+      "tumor_dsc": "0.819 (0.725–0.859)",
+      "tumor_ji": "0.693 (0.568–0.753)",
+      "tumor_precision": 0.84,
+      "tumor_recall": 0.817,
+      "tumor_f1": 0.828
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "task": "lits",
+  "num_classes": 3,
+  "labels": {
+    "0": "background",
+    "1": "liver",
+    "2": "tumor"
+  },
+  "patch_size": [
+    128,
+    128,
+    128
+  ],
+  "spacing": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "intensity_window": [
+    -21,
+    189
+  ],
+  "batch_size": 1,
+  "crops_per_case": 2,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.01,
+  "iterations": 70000,
+  "validation_every": 200,
+  "overlap": 0.5,
+  "sw_batch_size": 1,
+  "num_workers": 0,
+  "seed": 0,
+  "drop_path_rate": 0.1,
+  "amp": false
+}
